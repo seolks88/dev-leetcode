@@ -12,9 +12,6 @@ class Solution:
             if nums[j] != nums[i]:
                 j += 1
                 nums[j] = nums[i]
-                
-
-        print(nums)
         return j+1
 
 
